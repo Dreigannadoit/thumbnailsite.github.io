@@ -1,0 +1,12 @@
+export { default as Frst } from './1.jpg';
+export { default as Sec } from './2.jpg';
+export { default as Trd } from './3.jpg';
+export { default as Frt } from './4.jpg';
+export { default as fit } from './5.jpg';
+export { default as sx } from './6.jpg';
+export { default as svn } from './7.jpg';
+export { default as ate } from './8.jpg';
+export { default as nin } from './9.jpg';
+export { default as ten } from './10.jpg';
+export { default as elvn } from './11.jpg';
+export { default as tlv } from './12.jpg';

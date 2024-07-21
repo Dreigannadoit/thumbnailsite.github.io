@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --main-bg-clr:rgb(134,91,188);
+    --main-gradient: linear-gradient(180deg, rgba(134,91,188,1) 0%, rgba(70,53,120,1) 37%, rgba(44,50,102,1) 77%);
+    --spacing-int: 6%;
+
+    --dark-color: #23234B;
+    --light-color: #ffffff;
+    --nuetral-color: #dacfe9;
+}
+
+*, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+
+body ,.gradient-wrapper{
+    height: 100vh;
+    width: 100dvw;
+    overflow-x: hidden;
+}
+
+#app{
+    height: 100%;
+    width: 100%;
+}
+
+.gradient-wrapper{
+    background: var(--main-gradient);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contain-x{
+    padding-left: var(--spacing-int);
+    padding-right: var(--spacing-int);
+}
+
+
+/* text color */
+.text-dark{
+    color: var(--dark-color)
+}
+.text-light{
+    color: var(--light-color)
+}
+.text-nuetral{
+    color: var(--nuetral-color)
+}
+
+
+/* bg color */
+.bg-dark{
+    background-color: var(--dark-color);
+}
+.bg-light{
+    background-color: var(--light-color)
+}
+.bg-nuetral{
+    background-color: var(--nuetral-color)
+}
